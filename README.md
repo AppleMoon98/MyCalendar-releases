@@ -84,7 +84,26 @@
 
 ![발급된 클라이언트 ID/보안 비밀 화면 이미지](png/%EB%B0%9C%EA%B8%89%EB%90%9C%20%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%20ID%2C%20%EB%B3%B4%EC%95%88%20%EB%B9%84%EB%B0%80%20%ED%99%94%EB%A9%B4%20%EC%9D%B4%EB%AF%B8%EC%A7%80.png)
 
-### 5. MyCalendar에 등록하기
+### 5. 앱 정보 등록하기
+
+![API 및 서비스 - Google 인증 플랫폼 - 브랜딩](png/API%20%EB%B0%8F%20%EC%84%9C%EB%B9%84%EC%8A%A4%20-%20Google%20%EC%9D%B8%EC%A6%9D%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20-%20%EB%B8%8C%EB%9E%9C%EB%94%A9.png)
+
+1. **앱 이름 > MyCalendar**를 입력한다.
+2. **사용자 지원 이메일 > 본인 구글 이메일**인지 확인한다.
+3. 아래에 있는 **개발자 연락처 정보 > 본인 구글 이메일**인지 확인한다.
+
+※ 해당 설정을 하지 않으면 **OAuth 로그인에서 앱 인증 문제가 발생**한다.
+
+### 6. OAuth 로그인 가능 권한 설정
+
+![API 및 서비스 - Google 인증 플랫폼 - 대상](png/API%20%EB%B0%8F%20%EC%84%9C%EB%B9%84%EC%8A%A4%20-%20Google%20%EC%9D%B8%EC%A6%9D%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20-%20%EB%8C%80%EC%83%81.png)
+
+1. **테스트 사용자 > Add users > 본인 구글 이메일**을 추가한다.
+2. 여기서 **다른 이메일을 추가하면 다른 이메일도 같은 OAuth로 로그인이 가능**하다.
+
+※ **일일 사용량 100만회**를 넘을 수 없다.
+
+### 7. MyCalendar에 등록하기
 
 ![MyCalendar 환경설정 > 구글 캘린더 탭 이미지](png/MyCalendar%20%ED%99%98%EA%B2%BD%EC%84%A4%EC%A0%95%20-%20%EA%B5%AC%EA%B8%80%20%EC%BA%98%EB%A6%B0%EB%8D%94%20%ED%83%AD%20%EC%9D%B4%EB%AF%B8%EC%A7%80.png)
 
